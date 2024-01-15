@@ -47,7 +47,7 @@
 #' @references Duanchen Sun and Zheng Xia (2021): Phenotype-guided subpopulation identification from single-cell sequencing data. Nature Biotechnology.
 #' @import Seurat Matrix preprocessCore
 #' @export
-Scissor <- function(bulk_dataset, sc_dataset, phenotype, tag = NULL,
+Scissor2 <- function(bulk_dataset, sc_dataset, phenotype, tag = NULL,
                     alpha = NULL, cutoff = 0.2, family = c("gaussian","binomial","cox"),
                     Save_file = "Scissor_inputs.RData", Load_file = NULL){
     library(Seurat)
